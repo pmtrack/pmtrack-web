@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	height: 100%;
+    margin: 0;
+	background: rgb(203,107,255);
+	background: -moz-linear-gradient(140deg, rgba(203,107,255,1) 0%, rgba(153,128,255,1) 35%, rgba(106,148,255,1) 100%);
+	background: -webkit-linear-gradient(140deg, rgba(203,107,255,1) 0%, rgba(153,128,255,1) 35%, rgba(106,148,255,1) 100%);
+	background: linear-gradient(140deg, rgba(203,107,255,1) 0%, rgba(153,128,255,1) 35%, rgba(106,148,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cb6bff",endColorstr="#6a94ff",GradientType=1); 
+}
+
+.homepage-logo {
+	max-width: 200px;
+}
+
+.content-container {
+	max-width: 648px;
+	padding: 24px;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 36px;
+}
+
+.description {
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: -12px;
+}
+
+.cta{
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.description > a {
+	color: #fff;
+}
+
+.cta > a {
+	color: #fff;
+}
