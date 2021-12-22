@@ -1,16 +1,16 @@
 html {
-    height: 100%;
-    overflow-x: hidden; 
-    overflow-y: auto;
+	height: 100%;
+	overflow-x: hidden; 
+	overflow-y: auto;
 }
 
 body {
 	font-family: 'Jost', sans-serif;
 	color: #fff;
 	height: 100%;
-    margin: 0;
-    overflow-x: hidden; 
-    overflow-y: auto;
+	margin: 0;
+	overflow-x: hidden; 
+	overflow-y: auto;
 	background: rgb(203,107,255);
 	background: -moz-linear-gradient(140deg, rgba(203,107,255,1) 0%, rgba(153,128,255,1) 35%, rgba(106,148,255,1) 100%);
 	background: -webkit-linear-gradient(140deg, rgba(203,107,255,1) 0%, rgba(153,128,255,1) 35%, rgba(106,148,255,1) 100%);
@@ -49,4 +49,14 @@ h1 {
 
 .cta > a {
 	color: #fff;
+}
+
+label {
+	display:block;
+	position:relative;
+	padding-left: 96px;
+}
+label > span {
+	position:absolute;
+	left:0;
 }
